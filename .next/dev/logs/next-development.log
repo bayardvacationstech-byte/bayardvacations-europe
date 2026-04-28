@@ -1,55 +1,137 @@
-[00:00:01.467] Server  LOG      ✓ Ready in 1071ms
-[00:00:04.497] Server  LOG      ○ Compiling / ...
-[00:00:06.250] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:07.070] Browser LOG     --- NAV FETCHING REGIONS FROM API ---
-[00:00:07.070] Browser LOG     --- NAV FETCHING REGIONS FROM API ---
-[00:00:07.600] Server  LOG     >>> API GRAPHQL REQUEST RECEIVED <<< "POST"
-[00:00:07.618] Server  LOG     --- FIRESTORE DYNAMIC QUERY: honeymoon, elite-escape, family, group-departure, relax-rejuvenate, solo ---
-[00:00:07.630] Server  LOG     >>> API GRAPHQL REQUEST RECEIVED <<< "POST"
-[00:00:07.635] Server  LOG     --- FIRESTORE DYNAMIC QUERY: elite-escape, Elite Escape, luxury, Luxury ---
-[00:00:07.636] Server  LOG     --- FIRESTORE DYNAMIC QUERY: exploration-bundle, Exploration Bundle, exploration, Exploration, educational, Educational ---
-[00:00:07.637] Server  LOG     --- FIRESTORE DYNAMIC QUERY: relax-rejuvenate, Relax & Rejuvenate, Wellness, Relax, Value, budget ---
-[00:00:07.642] Server  LOG     >>> API GRAPHQL REQUEST RECEIVED <<< "POST"
-[00:00:07.643] Server  LOG     --- FIRESTORE DYNAMIC QUERY: honeymoon, elite-escape, family, group-departure, relax-rejuvenate, solo ---
-[00:00:07.647] Server  LOG     >>> API GRAPHQL REQUEST RECEIVED <<< "POST"
-[00:00:07.650] Server  LOG     --- GRAPHQL REGIONS QUERY ---
-[00:00:07.654] Server  LOG     >>> API GRAPHQL REQUEST RECEIVED <<< "POST"
-[00:00:07.656] Server  LOG     --- GRAPHQL REGIONS QUERY ---
-[00:00:07.990] Server  LOG     >>> API GRAPHQL REQUEST RECEIVED <<< "POST"
-[00:00:07.993] Server  LOG     --- FIRESTORE DYNAMIC QUERY: elite-escape, Elite Escape, luxury, Luxury ---
-[00:00:07.994] Server  LOG     --- FIRESTORE DYNAMIC QUERY: exploration-bundle, Exploration Bundle, exploration, Exploration, educational, Educational ---
-[00:00:07.995] Server  LOG     --- FIRESTORE DYNAMIC QUERY: relax-rejuvenate, Relax & Rejuvenate, Wellness, Relax, Value, budget ---
-[00:00:08.137] Server  LOG     No packages found with 'themes' array, trying 'theme' array...
-[00:00:08.141] Server  LOG     No packages found with 'themes' array, trying 'theme' array...
-[00:00:08.146] Server  LOG     No packages found with 'themes' array, trying 'theme' array...
-[00:00:08.149] Server  LOG     No packages found with 'themes' array, trying 'theme' array...
-[00:00:08.150] Server  LOG     No packages found with 'themes' array, trying 'theme' array...
-[00:00:08.163] Server  LOG     No packages found with 'themes' array, trying 'theme' array...
-[00:00:08.164] Server  LOG     No packages found with 'themes' array, trying 'theme' array...
-[00:00:08.170] Server  LOG     No packages found with 'themes' array, trying 'theme' array...
-[00:00:08.504] Server  LOG     Total documents in 'regions' collection: 87
-[00:00:08.506] Server  LOG     Found Europe Countries: ["Multi Countries","Wales","Netherland","Scotland","Scandinavia Countries ","Portugal","UK ","Germany","Spain","England","Italy","France","Belgium","Switzerland","Austria"]
-[00:00:08.507] Server  LOG     Region scandinavia: 0 countries matched
-[00:00:08.507] Server  LOG     Region western-europe: 8 countries matched
-[00:00:08.507] Server  LOG     Region central-europe: 1 countries matched
-[00:00:08.507] Server  LOG     Region uk-ireland: 3 countries matched
-[00:00:08.508] Server  LOG     Region eastern: 0 countries matched
-[00:00:08.508] Server  LOG     Region balkans: 0 countries matched
-[00:00:08.524] Server  LOG     Query returned 8 packages
-[00:00:08.545] Server  LOG     Total documents in 'regions' collection: 87
-[00:00:08.545] Server  LOG     Found Europe Countries: ["Multi Countries","Wales","Netherland","Scotland","Scandinavia Countries ","Portugal","UK ","Germany","Spain","England","Italy","France","Belgium","Switzerland","Austria"]
-[00:00:08.545] Server  LOG     Region scandinavia: 0 countries matched
-[00:00:08.545] Server  LOG     Region western-europe: 8 countries matched
-[00:00:08.545] Server  LOG     Region central-europe: 1 countries matched
-[00:00:08.546] Server  LOG     Region uk-ireland: 3 countries matched
-[00:00:08.546] Server  LOG     Region eastern: 0 countries matched
-[00:00:08.546] Server  LOG     Region balkans: 0 countries matched
-[00:00:08.563] Server  LOG     Query returned 8 packages
-[00:00:08.616] Server  LOG     Query returned 8 packages
-[00:00:08.656] Server  LOG     Query returned 8 packages
-[00:00:08.671] Server  LOG     Query returned 8 packages
-[00:00:08.697] Server  LOG     Query returned 8 packages
-[00:00:09.084] Browser LOG     --- NAV DYNAMIC REGIONS RECEIVED --- 6 regions
-[00:00:09.084] Browser LOG     --- NAV DYNAMIC REGIONS RECEIVED --- 6 regions
-[00:00:09.660] Server  LOG     Query returned 100 packages
-[00:00:09.876] Server  LOG     Query returned 100 packages
+[00:00:02.990] Server  LOG      ✓ Ready in 2.4s
+[00:00:16.812] Server  LOG      ○ Compiling / ...
+[00:00:19.226] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:19.481] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <RedirectBoundary>
+      <RedirectErrorBoundary router={{...}}>
+        <Head>
+        <__next_root_layout_boundary__>
+          <SegmentViewNode type="layout" pagePath="layout.jsx">
+            <SegmentTrieNode>
+            <link>
+            <script>
+            <script>
+            <script>
+            <script>
+            <script>
+            <script>
+            <RootLayout>
+              <html lang="en" className="scroll-smooth">
+                <body className="poppins_8e...">
+                  <Header>
+                  <main>
+                  <Footer>
+                    <footer style={{...}}>
+                      <style>
+                      <Container className="pt-8 md:pt-14">
+                        <div className="px-4 w-ful...">
+                          <div>
+                          <div>
+                          <div className="footer-grid" style={{display:"grid", ...}}>
+                            <div>
+                            <div>
+                            <div>
+                              <p>
+                              <div style={{display:"flex", ...}}>
+                                <div>
+                                  <p>
+                                  <a
++                                   href="https://wa.me/916363117421"
+-                                   href="#"
++                                   target="_blank"
+-                                   target={null}
++                                   rel="noopener noreferrer"
+-                                   rel={null}
+                                    style={{color:"#D4AF37",fontSize:"13px",textDecoration:"none",display:"inline-block",marginTop:"8px", ...}}
+                                  >
++                                   Start Chatting →
+                                <div style={{...}}>
+                                  <div style={{display:"flex", ...}}>
+                                    <span>
++                                   <a
++                                     href="tel:+916363117421"
++                                     style={{fontSize:"16px",color:"rgba(255,2...",fontWeight:500,textDecoration:"none"}}
++                                   >
+-                                   <span style={{font-size:"16px",color:"rgba(255, ...",font-weight:"500"}}>
+                                  ...
+                                ...
+                            ...
+                          ...
+        ...
+
+[00:00:19.481] Browser WARN    Image with src "http://localhost:3000/quick_region_images/leaning_tower_of_pisa.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:19.481] Browser WARN    Image with src "http://localhost:3000/quick_region_images/brandenburg_gate.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:19.481] Browser WARN    Image with src "http://localhost:3000/quick_region_images/sagrada_familia.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:19.481] Browser WARN    Image with src "http://localhost:3000/quick_region_images/colosseum.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:19.481] Browser WARN    Image with src "http://localhost:3000/quick_region_images/parthenon.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:19.481] Browser WARN    Image with src "http://localhost:3000/quick_region_images/tower_bridge.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:19.481] Browser WARN    Image with src "http://localhost:3000/quick_region_images/cologne_cathedral.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:19.481] Browser WARN    Image with src "http://localhost:3000/quick_region_images/charles_bridge.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:19.481] Browser WARN    Image with src "http://localhost:3000/quick_region_images/edinburgh_castle.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:19.481] Browser WARN    Image with src "http://localhost:3000/quick_region_images/louvre.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:19.481] Browser LOG     --- NAV FETCHING REGIONS FROM API ---
+[00:00:19.481] Browser LOG     --- NAV FETCHING REGIONS FROM API ---
+[00:00:21.791] Server  LOG     >>> API GRAPHQL REQUEST RECEIVED <<< "POST"
+[00:00:21.814] Server  LOG     --- FIRESTORE DYNAMIC QUERY: honeymoon, elite-escape, family, group-departure, relax-rejuvenate, solo ---
+[00:00:21.825] Server  LOG     >>> API GRAPHQL REQUEST RECEIVED <<< "POST"
+[00:00:21.830] Server  LOG     --- FIRESTORE DYNAMIC QUERY: elite-escape, Elite Escape, luxury, Luxury ---
+[00:00:21.831] Server  LOG     --- FIRESTORE DYNAMIC QUERY: exploration-bundle, Exploration Bundle, exploration, Exploration, educational, Educational ---
+[00:00:21.832] Server  LOG     --- FIRESTORE DYNAMIC QUERY: relax-rejuvenate, Relax & Rejuvenate, Wellness, Relax, Value, budget ---
+[00:00:21.839] Server  LOG     >>> API GRAPHQL REQUEST RECEIVED <<< "POST"
+[00:00:21.842] Server  LOG     --- GRAPHQL REGIONS QUERY ---
+[00:00:21.848] Server  LOG     >>> API GRAPHQL REQUEST RECEIVED <<< "POST"
+[00:00:21.850] Server  LOG     --- GRAPHQL REGIONS QUERY ---
+[00:00:22.624] Server  LOG     >>> API GRAPHQL REQUEST RECEIVED <<< "POST"
+[00:00:22.628] Server  LOG     --- FIRESTORE DYNAMIC QUERY: elite-escape, Elite Escape, luxury, Luxury ---
+[00:00:22.630] Server  LOG     --- FIRESTORE DYNAMIC QUERY: exploration-bundle, Exploration Bundle, exploration, Exploration, educational, Educational ---
+[00:00:22.632] Server  LOG     --- FIRESTORE DYNAMIC QUERY: relax-rejuvenate, Relax & Rejuvenate, Wellness, Relax, Value, budget ---
+[00:00:22.647] Server  LOG     >>> API GRAPHQL REQUEST RECEIVED <<< "POST"
+[00:00:22.652] Server  LOG     --- FIRESTORE DYNAMIC QUERY: honeymoon, elite-escape, family, group-departure, relax-rejuvenate, solo ---
+[00:00:22.960] Server  LOG     No packages found with 'themes' array, trying 'theme' array...
+[00:00:22.967] Server  LOG     No packages found with 'themes' array, trying 'theme' array...
+[00:00:22.972] Server  LOG     No packages found with 'themes' array, trying 'theme' array...
+[00:00:22.977] Server  LOG     No packages found with 'themes' array, trying 'theme' array...
+[00:00:23.003] Server  LOG     No packages found with 'themes' array, trying 'theme' array...
+[00:00:23.008] Server  LOG     No packages found with 'themes' array, trying 'theme' array...
+[00:00:23.026] Server  LOG     No packages found with 'themes' array, trying 'theme' array...
+[00:00:23.051] Server  LOG     No packages found with 'themes' array, trying 'theme' array...
+[00:00:23.291] Server  LOG     Total documents in 'regions' collection: 87
+[00:00:23.293] Server  LOG     Found Europe Countries: ["Multi Countries","Wales","Netherland","Scotland","Scandinavia Countries ","Portugal","UK ","Germany","Spain","England","Italy","France","Belgium","Switzerland","Austria"]
+[00:00:23.294] Server  LOG     Region scandinavia: 0 countries matched
+[00:00:23.295] Server  LOG     Region western-europe: 8 countries matched
+[00:00:23.296] Server  LOG     Region central-europe: 1 countries matched
+[00:00:23.296] Server  LOG     Region uk-ireland: 3 countries matched
+[00:00:23.297] Server  LOG     Region eastern: 0 countries matched
+[00:00:23.297] Server  LOG     Region balkans: 0 countries matched
+[00:00:23.322] Server  LOG     Total documents in 'regions' collection: 87
+[00:00:23.324] Server  LOG     Found Europe Countries: ["Multi Countries","Wales","Netherland","Scotland","Scandinavia Countries ","Portugal","UK ","Germany","Spain","England","Italy","France","Belgium","Switzerland","Austria"]
+[00:00:23.325] Server  LOG     Region scandinavia: 0 countries matched
+[00:00:23.325] Server  LOG     Region western-europe: 8 countries matched
+[00:00:23.326] Server  LOG     Region central-europe: 1 countries matched
+[00:00:23.326] Server  LOG     Region uk-ireland: 3 countries matched
+[00:00:23.326] Server  LOG     Region eastern: 0 countries matched
+[00:00:23.327] Server  LOG     Region balkans: 0 countries matched
+[00:00:23.481] Server  LOG     Query returned 8 packages
+[00:00:23.512] Browser LOG     --- NAV DYNAMIC REGIONS RECEIVED --- 6 regions
+[00:00:23.512] Browser LOG     --- NAV DYNAMIC REGIONS RECEIVED --- 6 regions
+[00:00:23.582] Server  LOG     Query returned 8 packages
+[00:00:23.627] Server  LOG     Query returned 8 packages
+[00:00:23.661] Server  LOG     Query returned 8 packages
+[00:00:23.754] Server  LOG     Query returned 8 packages
+[00:00:23.922] Server  LOG     Query returned 8 packages
+[00:00:25.303] Server  LOG     Query returned 100 packages
+[00:00:25.844] Server  LOG     Query returned 100 packages
+[00:00:26.881] Server  LOG      ○ Compiling /[regionId] ...
+[00:07:46.830] Server  LOG      ✓ Compiled in 350ms

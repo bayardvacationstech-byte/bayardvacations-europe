@@ -192,8 +192,8 @@ const Footer = () => {
             <ul className="themes-list" style={{ listStyle: "none", margin: 0, padding: 0, display: "flex", flexDirection: "column", gap: "14px" }}>
               {TRAVEL_THEMES.slice(0, 5).map((theme) => (
                 <li key={theme.id}>
-                  <Link 
-                    href={`/themes/${theme.id}`} 
+                  <Link
+                    href={`/themes/${theme.id}`}
                     style={{ color: "rgba(255,255,255,0.65)", textDecoration: "none", fontSize: "14px", fontWeight: 400, transition: "color 0.2s" }}
                   >
                     {theme.title}
@@ -226,8 +226,11 @@ const Footer = () => {
                 <p style={{ margin: 0, fontSize: "14px", fontWeight: 500, color: "rgba(255,255,255,0.9)", lineHeight: 1.4 }}>
                   AI Concierge: Ask Bayard Assistant
                 </p>
-                <Link
-                  href="#"
+                <a
+                  href="https://wa.me/916363117421"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  suppressHydrationWarning
                   style={{
                     color: "#D4AF37",
                     fontSize: "13px",
@@ -241,14 +244,20 @@ const Footer = () => {
                   }}
                 >
                   Start Chatting →
-                </Link>
+                </a>
               </div>
 
               {/* Contact Info */}
               <div style={{ borderTop: "1px solid rgba(255,255,255,0.08)", paddingTop: "24px" }}>
                 <div style={{ display: "flex", alignItems: "baseline", gap: "8px", marginBottom: "6px" }}>
                   <span style={{ fontSize: "10px", fontWeight: 600, textTransform: "uppercase", opacity: 0.5 }}>Call</span>
-                  <span style={{ fontSize: "16px", color: "rgba(255,255,255,0.9)", fontWeight: 500 }}>063631 17421</span>
+                  <a
+                    href="tel:+916363117421"
+                    suppressHydrationWarning
+                    style={{ fontSize: "16px", color: "rgba(255,255,255,0.9)", fontWeight: 500, textDecoration: "none" }}
+                  >
+                    063631 17421
+                  </a>
                 </div>
                 <p style={{ margin: 0, fontSize: "13px", color: "rgba(255,255,255,0.5)" }}>
                   WhatsApp · Instant Chat · Email · 24hr Support

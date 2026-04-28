@@ -1,4 +1,4 @@
-;!function(){try { var e="undefined"!=typeof globalThis?globalThis:"undefined"!=typeof global?global:"undefined"!=typeof window?window:"undefined"!=typeof self?self:{},n=(new e.Error).stack;n&&((e._debugIds|| (e._debugIds={}))[n]="50257af0-70e7-f0a4-145e-c6b44d4a5f9b")}catch(e){}}();
+;!function(){try { var e="undefined"!=typeof globalThis?globalThis:"undefined"!=typeof global?global:"undefined"!=typeof window?window:"undefined"!=typeof self?self:{},n=(new e.Error).stack;n&&((e._debugIds|| (e._debugIds={}))[n]="2da1cde4-61cd-95fc-2b63-793899497906")}catch(e){}}();
 module.exports = [
 "[externals]/next/dist/compiled/next-server/app-page-turbo.runtime.dev.js [external] (next/dist/compiled/next-server/app-page-turbo.runtime.dev.js, cjs)", ((__turbopack_context__, module, exports) => {
 
@@ -3965,8 +3965,11 @@ const Footer = ()=>{
                                                         lineNumber: 226,
                                                         columnNumber: 17
                                                     }, ("TURBOPACK compile-time value", void 0)),
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                                        href: "#",
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                                                        href: "https://wa.me/916363117421",
+                                                        target: "_blank",
+                                                        rel: "noopener noreferrer",
+                                                        suppressHydrationWarning: true,
                                                         style: {
                                                             color: "#D4AF37",
                                                             fontSize: "13px",
@@ -4014,25 +4017,28 @@ const Footer = ()=>{
                                                                 children: "Call"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/shared/components/layout/Footer/Footer.jsx",
-                                                                lineNumber: 250,
+                                                                lineNumber: 253,
                                                                 columnNumber: 19
                                                             }, ("TURBOPACK compile-time value", void 0)),
-                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                                                                href: "tel:+916363117421",
+                                                                suppressHydrationWarning: true,
                                                                 style: {
                                                                     fontSize: "16px",
                                                                     color: "rgba(255,255,255,0.9)",
-                                                                    fontWeight: 500
+                                                                    fontWeight: 500,
+                                                                    textDecoration: "none"
                                                                 },
                                                                 children: "063631 17421"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/shared/components/layout/Footer/Footer.jsx",
-                                                                lineNumber: 251,
+                                                                lineNumber: 254,
                                                                 columnNumber: 19
                                                             }, ("TURBOPACK compile-time value", void 0))
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/src/shared/components/layout/Footer/Footer.jsx",
-                                                        lineNumber: 249,
+                                                        lineNumber: 252,
                                                         columnNumber: 17
                                                     }, ("TURBOPACK compile-time value", void 0)),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -4044,13 +4050,13 @@ const Footer = ()=>{
                                                         children: "WhatsApp · Instant Chat · Email · 24hr Support"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/shared/components/layout/Footer/Footer.jsx",
-                                                        lineNumber: 253,
+                                                        lineNumber: 262,
                                                         columnNumber: 17
                                                     }, ("TURBOPACK compile-time value", void 0))
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/shared/components/layout/Footer/Footer.jsx",
-                                                lineNumber: 248,
+                                                lineNumber: 251,
                                                 columnNumber: 15
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4072,20 +4078,20 @@ const Footer = ()=>{
                                                         children: "In-Person"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/shared/components/layout/Footer/Footer.jsx",
-                                                        lineNumber: 259,
+                                                        lineNumber: 268,
                                                         columnNumber: 17
                                                     }, ("TURBOPACK compile-time value", void 0)),
                                                     "144, 9th Main Rd, 4th Block, Kanteerava Nagar,",
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                                         fileName: "[project]/src/shared/components/layout/Footer/Footer.jsx",
-                                                        lineNumber: 260,
+                                                        lineNumber: 269,
                                                         columnNumber: 63
                                                     }, ("TURBOPACK compile-time value", void 0)),
                                                     "Nandini Layout, Bengaluru, KA 560096"
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/shared/components/layout/Footer/Footer.jsx",
-                                                lineNumber: 258,
+                                                lineNumber: 267,
                                                 columnNumber: 15
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4099,7 +4105,7 @@ const Footer = ()=>{
                                                 children: "✦ 24/7 Global Support & Personalized Concierge"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/shared/components/layout/Footer/Footer.jsx",
-                                                lineNumber: 264,
+                                                lineNumber: 273,
                                                 columnNumber: 15
                                             }, ("TURBOPACK compile-time value", void 0))
                                         ]
@@ -4166,7 +4172,7 @@ const Footer = ()=>{
             `
                                     }, void 0, false, {
                                         fileName: "[project]/src/shared/components/layout/Footer/Footer.jsx",
-                                        lineNumber: 272,
+                                        lineNumber: 281,
                                         columnNumber: 13
                                     }, ("TURBOPACK compile-time value", void 0)),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4193,18 +4199,18 @@ const Footer = ()=>{
                                             }
                                         }, void 0, false, {
                                             fileName: "[project]/src/shared/components/layout/Footer/Footer.jsx",
-                                            lineNumber: 313,
+                                            lineNumber: 322,
                                             columnNumber: 15
                                         }, ("TURBOPACK compile-time value", void 0))
                                     }, void 0, false, {
                                         fileName: "[project]/src/shared/components/layout/Footer/Footer.jsx",
-                                        lineNumber: 312,
+                                        lineNumber: 321,
                                         columnNumber: 13
                                     }, ("TURBOPACK compile-time value", void 0))
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/shared/components/layout/Footer/Footer.jsx",
-                                lineNumber: 271,
+                                lineNumber: 280,
                                 columnNumber: 11
                             }, ("TURBOPACK compile-time value", void 0))
                         ]
@@ -4281,12 +4287,12 @@ const Footer = ()=>{
                                         children: link.name
                                     }, link.name, false, {
                                         fileName: "[project]/src/shared/components/layout/Footer/Footer.jsx",
-                                        lineNumber: 357,
+                                        lineNumber: 366,
                                         columnNumber: 15
                                     }, ("TURBOPACK compile-time value", void 0))) : null
                             }, void 0, false, {
                                 fileName: "[project]/src/shared/components/layout/Footer/Footer.jsx",
-                                lineNumber: 345,
+                                lineNumber: 354,
                                 columnNumber: 11
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -4304,13 +4310,13 @@ const Footer = ()=>{
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/shared/components/layout/Footer/Footer.jsx",
-                                lineNumber: 374,
+                                lineNumber: 383,
                                 columnNumber: 11
                             }, ("TURBOPACK compile-time value", void 0))
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/shared/components/layout/Footer/Footer.jsx",
-                        lineNumber: 334,
+                        lineNumber: 343,
                         columnNumber: 9
                     }, ("TURBOPACK compile-time value", void 0))
                 ]
@@ -4330,5 +4336,5 @@ const __TURBOPACK__default__export__ = Footer;
 }),
 ];
 
-//# debugId=50257af0-70e7-f0a4-145e-c6b44d4a5f9b
+//# debugId=2da1cde4-61cd-95fc-2b63-793899497906
 //# sourceMappingURL=%5Broot-of-the-server%5D__3ab654de._.js.map

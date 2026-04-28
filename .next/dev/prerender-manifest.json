@@ -1,11 +1,1 @@
-{
-  "version": 4,
-  "routes": {},
-  "dynamicRoutes": {},
-  "notFoundRoutes": [],
-  "preview": {
-    "previewModeId": "63a630fc50f64362b512d3b111ad69c9",
-    "previewModeSigningKey": "8acca195659a18ab2d3680bb9bcf0bde0a757d33391f9424c863bd6fd8dca688",
-    "previewModeEncryptionKey": "b2005c4aafd14d1e3b3cc20d41ffba06cf816557ff6a9217f536d57cb5460d63"
-  }
-}
+{"version":4,"routes":{"/scandinavia":{},"/western-europe":{},"/central-europe":{},"/uk-ireland":{},"/eastern":{},"/balkans":{}},"dynamicRoutes":{"/[regionId]":{"dataRoute":null,"dataRouteRegex":null,"fallback":null,"fallbackRevalidate":false,"fallbackSourceRoute":"/[regionId]","routeRegex":"^\\/([^/]+?)(?:\\/)?$","allowHeader":[]}},"notFoundRoutes":[],"preview":{"previewModeId":"63a630fc50f64362b512d3b111ad69c9","previewModeSigningKey":"8acca195659a18ab2d3680bb9bcf0bde0a757d33391f9424c863bd6fd8dca688","previewModeEncryptionKey":"b2005c4aafd14d1e3b3cc20d41ffba06cf816557ff6a9217f536d57cb5460d63"}}

@@ -63,3 +63,71 @@
 [00:00:22.789] Server  LOG     Query returned 8 packages
 [00:00:23.723] Server  LOG     Query returned 100 packages
 [00:00:24.016] Server  LOG     Query returned 100 packages
+[00:06:00.995] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:06:01.143] Server  LOG     >>> API GRAPHQL REQUEST RECEIVED <<< "POST"
+[00:06:01.145] Server  LOG     --- GRAPHQL REGIONS QUERY ---
+[00:06:01.160] Server  LOG     >>> API GRAPHQL REQUEST RECEIVED <<< "POST"
+[00:06:01.162] Server  LOG     --- GRAPHQL REGIONS QUERY ---
+[00:06:01.248] Browser WARN    Image with src "http://localhost:3000/quick_region_images/leaning_tower_of_pisa.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:06:01.248] Browser WARN    Image with src "http://localhost:3000/quick_region_images/brandenburg_gate.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:06:01.248] Browser WARN    Image with src "http://localhost:3000/quick_region_images/sagrada_familia.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:06:01.248] Browser WARN    Image with src "http://localhost:3000/quick_region_images/colosseum.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:06:01.248] Browser WARN    Image with src "http://localhost:3000/quick_region_images/parthenon.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:06:01.248] Browser WARN    Image with src "http://localhost:3000/quick_region_images/tower_bridge.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:06:01.248] Browser WARN    Image with src "http://localhost:3000/quick_region_images/cologne_cathedral.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:06:01.248] Browser WARN    Image with src "http://localhost:3000/quick_region_images/charles_bridge.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:06:01.248] Browser WARN    Image with src "http://localhost:3000/quick_region_images/edinburgh_castle.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:06:01.248] Browser WARN    Image with src "http://localhost:3000/quick_region_images/louvre.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:06:01.248] Browser LOG     --- NAV FETCHING REGIONS FROM API ---
+[00:06:01.248] Browser LOG     --- NAV FETCHING REGIONS FROM API ---
+[00:06:01.367] Browser WARN    Image with src "/quick_region_images/sagrada_familia.svg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:06:01.538] Server  LOG     Total documents in 'regions' collection: 87
+[00:06:01.539] Server  LOG     Found Europe Countries: ["Multi Countries","Wales","Netherland","Scotland","Scandinavia Countries ","Portugal","UK ","Germany","Spain","England","Italy","France","Belgium","Switzerland","Austria"]
+[00:06:01.540] Server  LOG     Region scandinavia: 0 countries matched
+[00:06:01.540] Server  LOG     Region western-europe: 8 countries matched
+[00:06:01.540] Server  LOG     Region central-europe: 1 countries matched
+[00:06:01.541] Server  LOG     Region uk-ireland: 3 countries matched
+[00:06:01.541] Server  LOG     Region eastern: 0 countries matched
+[00:06:01.542] Server  LOG     Region balkans: 0 countries matched
+[00:06:01.568] Server  LOG     Total documents in 'regions' collection: 87
+[00:06:01.569] Server  LOG     Found Europe Countries: ["Multi Countries","Wales","Netherland","Scotland","Scandinavia Countries ","Portugal","UK ","Germany","Spain","England","Italy","France","Belgium","Switzerland","Austria"]
+[00:06:01.569] Server  LOG     Region scandinavia: 0 countries matched
+[00:06:01.569] Server  LOG     Region western-europe: 8 countries matched
+[00:06:01.570] Server  LOG     Region central-europe: 1 countries matched
+[00:06:01.570] Server  LOG     Region uk-ireland: 3 countries matched
+[00:06:01.571] Server  LOG     Region eastern: 0 countries matched
+[00:06:01.571] Server  LOG     Region balkans: 0 countries matched
+[00:06:01.654] Server  LOG     >>> API GRAPHQL REQUEST RECEIVED <<< "POST"
+[00:06:01.659] Server  LOG     --- FIRESTORE DYNAMIC QUERY: honeymoon, elite-escape, family, group-departure, relax-rejuvenate, solo ---
+[00:06:01.668] Server  LOG     >>> API GRAPHQL REQUEST RECEIVED <<< "POST"
+[00:06:01.674] Server  LOG     --- FIRESTORE DYNAMIC QUERY: elite-escape, Elite Escape, luxury, Luxury ---
+[00:06:01.675] Server  LOG     --- FIRESTORE DYNAMIC QUERY: exploration-bundle, Exploration Bundle, exploration, Exploration, educational, Educational ---
+[00:06:01.675] Server  LOG     --- FIRESTORE DYNAMIC QUERY: relax-rejuvenate, Relax & Rejuvenate, Wellness, Relax, Value, budget ---
+[00:06:01.693] Server  LOG     >>> API GRAPHQL REQUEST RECEIVED <<< "POST"
+[00:06:01.695] Server  LOG     --- FIRESTORE DYNAMIC QUERY: honeymoon, elite-escape, family, group-departure, relax-rejuvenate, solo ---
+[00:06:01.700] Server  LOG     >>> API GRAPHQL REQUEST RECEIVED <<< "POST"
+[00:06:01.701] Server  LOG     --- FIRESTORE DYNAMIC QUERY: elite-escape, Elite Escape, luxury, Luxury ---
+[00:06:01.702] Server  LOG     --- FIRESTORE DYNAMIC QUERY: exploration-bundle, Exploration Bundle, exploration, Exploration, educational, Educational ---
+[00:06:01.703] Server  LOG     --- FIRESTORE DYNAMIC QUERY: relax-rejuvenate, Relax & Rejuvenate, Wellness, Relax, Value, budget ---
+[00:06:01.790] Server  LOG     No packages found with 'themes' array, trying 'theme' array...
+[00:06:01.802] Server  LOG     No packages found with 'themes' array, trying 'theme' array...
+[00:06:01.814] Server  LOG     No packages found with 'themes' array, trying 'theme' array...
+[00:06:01.820] Server  LOG     No packages found with 'themes' array, trying 'theme' array...
+[00:06:01.858] Server  LOG     No packages found with 'themes' array, trying 'theme' array...
+[00:06:01.870] Server  LOG     No packages found with 'themes' array, trying 'theme' array...
+[00:06:01.877] Server  LOG     No packages found with 'themes' array, trying 'theme' array...
+[00:06:01.889] Server  LOG     No packages found with 'themes' array, trying 'theme' array...
+[00:06:02.068] Browser LOG     --- NAV DYNAMIC REGIONS RECEIVED --- 6 regions
+[00:06:02.068] Browser LOG     --- NAV DYNAMIC REGIONS RECEIVED --- 6 regions
+[00:06:02.328] Browser WARN    Image with src "https://images.unsplash.com/photo-1531366936337-7c912a4589a7?q=80&w=2070&auto=format&fit=crop&w=1000" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:06:02.388] Server  LOG     Query returned 8 packages
+[00:06:02.536] Server  LOG     Query returned 8 packages
+[00:06:02.867] Server  LOG     Query returned 8 packages
+[00:06:02.996] Server  LOG     Query returned 8 packages
+[00:06:03.151] Server  LOG     Query returned 8 packages
+[00:06:03.277] Server  LOG     Query returned 8 packages
+[00:06:04.075] Server  LOG      ○ Compiling /[regionId] ...
+[00:06:05.421] Server  LOG     Query returned 100 packages
+[00:06:05.606] Server  LOG     Query returned 100 packages

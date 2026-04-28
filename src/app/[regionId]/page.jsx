@@ -1,4 +1,5 @@
 import { notFound } from "next/navigation";
+import { Suspense } from "react";
 import { EUROPE_REGIONS, REGIONS_MAP } from "@/features/destinations/constants/regions";
 import RegionHero from "@/features/destinations/components/RegionHero";
 import RegionHighlights from "@/features/destinations/components/RegionHighlights";
@@ -39,20 +40,22 @@ export default async function RegionPage({ params }) {
 
   return (
     <article className="min-h-screen bg-[#F9F8F5]">
-      {/* 1. Cinematic Hero */}
-      <RegionHero region={region} />
+      <Suspense fallback={<div className="h-screen bg-slate-900 animate-pulse" />}>
+        {/* 1. Cinematic Hero */}
+        <RegionHero region={region} />
 
-      {/* 2. Highlights / USP Strip */}
-      <RegionHighlights region={region} />
+        {/* 2. Highlights / USP Strip */}
+        <RegionHighlights region={region} />
 
-      {/* 3. Tour Packages Grid */}
-      <RegionPackages region={region} />
+        {/* 3. Tour Packages Grid */}
+        <RegionPackages region={region} />
 
-      {/* 4. Why Choose + Visa Info Two-col */}
-      <RegionVisaInfo region={region} />
+        {/* 4. Why Choose + Visa Info Two-col */}
+        <RegionVisaInfo region={region} />
 
-      {/* 5. Enquiry CTA */}
-      <RegionEnquiry region={region} />
+        {/* 5. Enquiry CTA */}
+        <RegionEnquiry region={region} />
+      </Suspense>
     </article>
   );
 }

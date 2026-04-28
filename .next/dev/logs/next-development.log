@@ -1,257 +1,65 @@
-[00:00:04.490] Server  LOG      ✓ Ready in 4s
-[00:00:09.882] Server  LOG      ○ Compiling / ...
-[00:00:11.831] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:12.068] Browser WARN    Image with src "http://localhost:3000/quick_region_images/leaning_tower_of_pisa.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:00:12.068] Browser WARN    Image with src "http://localhost:3000/quick_region_images/brandenburg_gate.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:00:12.069] Browser WARN    Image with src "http://localhost:3000/quick_region_images/sagrada_familia.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:00:12.069] Browser WARN    Image with src "http://localhost:3000/quick_region_images/colosseum.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:00:12.069] Browser WARN    Image with src "http://localhost:3000/quick_region_images/parthenon.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:00:12.069] Browser WARN    Image with src "http://localhost:3000/quick_region_images/tower_bridge.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:00:12.069] Browser WARN    Image with src "http://localhost:3000/quick_region_images/cologne_cathedral.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:00:12.069] Browser WARN    Image with src "http://localhost:3000/quick_region_images/charles_bridge.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:00:12.069] Browser WARN    Image with src "http://localhost:3000/quick_region_images/edinburgh_castle.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:00:12.069] Browser WARN    Image with src "http://localhost:3000/quick_region_images/louvre.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:00:12.069] Browser LOG     --- NAV FETCHING REGIONS FROM API ---
-[00:00:12.069] Browser LOG     --- NAV FETCHING REGIONS FROM API ---
-[00:00:13.326] Server  ERROR    ⨯ Error: Service account object must contain a string "project_id" property.
-[00:00:13.398] Server  ERROR    ⨯ Error: Service account object must contain a string "project_id" property.
-[00:00:13.519] Server  ERROR    ⨯ Error: Service account object must contain a string "project_id" property.
-[00:00:13.565] Server  ERROR    ⨯ Error: Service account object must contain a string "project_id" property.
-[00:00:13.608] Server  ERROR    ⨯ Error: Service account object must contain a string "project_id" property.
-[00:00:13.643] Server  ERROR    ⨯ Error: Service account object must contain a string "project_id" property.
-[00:00:14.520] Server  INFO    Time 7.217435
-[00:00:14.533] Server  INFO    Time 1.99234
-[00:00:14.543] Server  INFO    Time 0.909889
-[00:00:14.551] Server  INFO    Time 1.010038
-[00:00:14.559] Server  INFO    Time 0.78731
-[00:00:14.568] Server  INFO    Time 2.026602
-[00:00:14.702] Browser ERROR   Error fetching dynamic regions: {}
-[00:00:14.703] Browser ERROR   Error fetching dynamic regions: {}
-[00:00:14.703] Browser ERROR   Error fetching theme prices: {}
-[00:00:14.703] Browser ERROR   Error fetching homepage collections: {}
-[00:00:14.703] Browser ERROR   Error fetching theme prices: {}
-[00:00:14.703] Browser ERROR   Error fetching homepage collections: {}
-[00:00:49.793] Server  LOG      ○ Compiling /[regionId] ...
-[00:02:07.011] Server  ERROR    ⨯ Error: Service account object must contain a string "project_id" property.
-[00:02:07.037] Server  INFO    Time 4.560302
-[00:02:50.445] Server  ERROR    ⨯ ./src/core/firebase/admin.js:30:5
-Ecmascript file had an error
-  28 |   } catch (error) {
-  29 |     console.error("❌ Failed to initialize Firebase Admin:", error.message);
-> 30 |     isConfigValid = false; // Trigger mock mode if initialization fails
-     |     ^^^^^^^^^^^^^
-  31 |   }
-  32 | }
-  33 |
-
-cannot reassign to a variable declared with `const`
-
-Import trace:
-  App Route:
-    ./src/core/firebase/admin.js
-    ./src/app/api/graphql/route.js
-
-
-[00:02:50.504] Server  INFO    Time 1.033828
-[00:02:50.590] Browser ERROR   ./src/core/firebase/admin.js:30:5
-Ecmascript file had an error
-  28 |   } catch (error) {
-  29 |     console.error("❌ Failed to initialize Firebase Admin:", error.message);
-> 30 |     isConfigValid = false; // Trigger mock mode if initialization fails
-     |     ^^^^^^^^^^^^^
-  31 |   }
-  32 | }
-  33 |
-
-cannot reassign to a variable declared with `const`
-
-Import trace:
-  App Route:
-    ./src/core/firebase/admin.js
-    ./src/app/api/graphql/route.js
-[00:02:54.730] Browser ERROR   ./src/core/firebase/admin.js:30:5
-Ecmascript file had an error
-  28 |   } catch (error) {
-  29 |     console.error("❌ Failed to initialize Firebase Admin:", error.message);
-> 30 |     isConfigValid = false; // Trigger mock mode if initialization fails
-     |     ^^^^^^^^^^^^^
-  31 |   }
-  32 | }
-  33 |
-
-cannot reassign to a variable declared with `const`
-
-Import trace:
-  App Route:
-    ./src/core/firebase/admin.js
-    ./src/app/api/graphql/route.js
-[00:03:02.398] Server  WARN    ⚠️ Firebase Admin credentials missing or invalid. Firestore functionality will be limited.
-[00:03:02.459] Server  LOG     >>> API GRAPHQL REQUEST RECEIVED <<< "POST"
-[00:03:02.483] Server  LOG     --- GRAPHQL REGIONS QUERY ---
-[00:03:02.484] Server  LOG     Total documents in 'regions' collection: 0
-[00:03:02.484] Server  LOG     Found Europe Countries: []
-[00:03:02.484] Server  LOG     Region scandinavia: 0 countries matched
-[00:03:02.484] Server  LOG     Region western-europe: 0 countries matched
-[00:03:02.484] Server  LOG     Region central-europe: 0 countries matched
-[00:03:02.485] Server  LOG     Region uk-ireland: 0 countries matched
-[00:03:02.485] Server  LOG     Region eastern: 0 countries matched
-[00:03:02.485] Server  LOG     Region balkans: 0 countries matched
-[00:03:06.759] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:03:07.086] Server  LOG     >>> API GRAPHQL REQUEST RECEIVED <<< "POST"
-[00:03:07.100] Server  LOG     --- GRAPHQL REGIONS QUERY ---
-[00:03:07.110] Server  LOG     Total documents in 'regions' collection: 0
-[00:03:07.111] Server  LOG     Found Europe Countries: []
-[00:03:07.111] Server  LOG     Region scandinavia: 0 countries matched
-[00:03:07.112] Server  LOG     Region western-europe: 0 countries matched
-[00:03:07.112] Server  LOG     Region central-europe: 0 countries matched
-[00:03:07.115] Server  LOG     Region uk-ireland: 0 countries matched
-[00:03:07.115] Server  LOG     Region eastern: 0 countries matched
-[00:03:07.122] Server  LOG     Region balkans: 0 countries matched
-[00:03:07.163] Server  LOG     >>> API GRAPHQL REQUEST RECEIVED <<< "POST"
-[00:03:07.165] Server  LOG     --- GRAPHQL REGIONS QUERY ---
-[00:03:07.165] Server  LOG     Total documents in 'regions' collection: 0
-[00:03:07.166] Server  LOG     Found Europe Countries: []
-[00:03:07.166] Server  LOG     Region scandinavia: 0 countries matched
-[00:03:07.166] Server  LOG     Region western-europe: 0 countries matched
-[00:03:07.166] Server  LOG     Region central-europe: 0 countries matched
-[00:03:07.166] Server  LOG     Region uk-ireland: 0 countries matched
-[00:03:07.167] Server  LOG     Region eastern: 0 countries matched
-[00:03:07.167] Server  LOG     Region balkans: 0 countries matched
-[00:03:07.184] Browser WARN    Image with src "http://localhost:3000/quick_region_images/leaning_tower_of_pisa.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:03:07.184] Browser WARN    Image with src "http://localhost:3000/quick_region_images/brandenburg_gate.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:03:07.184] Browser WARN    Image with src "http://localhost:3000/quick_region_images/sagrada_familia.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:03:07.184] Browser WARN    Image with src "http://localhost:3000/quick_region_images/colosseum.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:03:07.184] Browser WARN    Image with src "http://localhost:3000/quick_region_images/parthenon.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:03:07.184] Browser WARN    Image with src "http://localhost:3000/quick_region_images/tower_bridge.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:03:07.184] Browser WARN    Image with src "http://localhost:3000/quick_region_images/cologne_cathedral.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:03:07.184] Browser WARN    Image with src "http://localhost:3000/quick_region_images/charles_bridge.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:03:07.184] Browser WARN    Image with src "http://localhost:3000/quick_region_images/edinburgh_castle.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:03:07.184] Browser WARN    Image with src "http://localhost:3000/quick_region_images/louvre.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:03:07.184] Browser LOG     --- NAV FETCHING REGIONS FROM API ---
-[00:03:07.184] Browser LOG     --- NAV FETCHING REGIONS FROM API ---
-[00:03:07.184] Browser WARN    Image with src "/quick_region_images/sagrada_familia.svg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
-Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
-[00:03:07.309] Browser LOG     --- NAV DYNAMIC REGIONS RECEIVED --- 6 regions
-[00:03:07.309] Browser LOG     --- NAV DYNAMIC REGIONS RECEIVED --- 6 regions
-[00:03:07.390] Server  LOG     >>> API GRAPHQL REQUEST RECEIVED <<< "POST"
-[00:03:07.404] Server  LOG     --- FIRESTORE DYNAMIC QUERY: honeymoon, elite-escape, family, group-departure, relax-rejuvenate, solo ---
-[00:03:07.406] Server  LOG     No packages found with 'themes' array, trying 'theme' array...
-[00:03:07.406] Server  LOG     No themed packages found, falling back to latest published...
-[00:03:07.407] Server  LOG     Query returned 0 packages
-[00:03:07.430] Server  LOG     >>> API GRAPHQL REQUEST RECEIVED <<< "POST"
-[00:03:07.440] Server  LOG     --- FIRESTORE DYNAMIC QUERY: elite-escape, Elite Escape, luxury, Luxury ---
-[00:03:07.441] Server  LOG     --- FIRESTORE DYNAMIC QUERY: exploration-bundle, Exploration Bundle, exploration, Exploration, educational, Educational ---
-[00:03:07.441] Server  LOG     --- FIRESTORE DYNAMIC QUERY: relax-rejuvenate, Relax & Rejuvenate, Wellness, Relax, Value, budget ---
-[00:03:07.442] Server  LOG     No packages found with 'themes' array, trying 'theme' array...
-[00:03:07.442] Server  LOG     No packages found with 'themes' array, trying 'theme' array...
-[00:03:07.442] Server  LOG     No packages found with 'themes' array, trying 'theme' array...
-[00:03:07.442] Server  LOG     No themed packages found, falling back to latest published...
-[00:03:07.442] Server  LOG     No themed packages found, falling back to latest published...
-[00:03:07.442] Server  LOG     No themed packages found, falling back to latest published...
-[00:03:07.443] Server  LOG     Query returned 0 packages
-[00:03:07.443] Server  LOG     Query returned 0 packages
-[00:03:07.443] Server  LOG     Query returned 0 packages
-[00:03:07.456] Server  LOG     >>> API GRAPHQL REQUEST RECEIVED <<< "POST"
-[00:03:07.458] Server  LOG     --- FIRESTORE DYNAMIC QUERY: honeymoon, elite-escape, family, group-departure, relax-rejuvenate, solo ---
-[00:03:07.458] Server  LOG     No packages found with 'themes' array, trying 'theme' array...
-[00:03:07.459] Server  LOG     No themed packages found, falling back to latest published...
-[00:03:07.459] Server  LOG     Query returned 0 packages
-[00:03:07.466] Server  LOG     >>> API GRAPHQL REQUEST RECEIVED <<< "POST"
-[00:03:07.471] Server  LOG     --- FIRESTORE DYNAMIC QUERY: elite-escape, Elite Escape, luxury, Luxury ---
-[00:03:07.472] Server  LOG     --- FIRESTORE DYNAMIC QUERY: exploration-bundle, Exploration Bundle, exploration, Exploration, educational, Educational ---
-[00:03:07.473] Server  LOG     --- FIRESTORE DYNAMIC QUERY: relax-rejuvenate, Relax & Rejuvenate, Wellness, Relax, Value, budget ---
-[00:03:07.473] Server  LOG     No packages found with 'themes' array, trying 'theme' array...
-[00:03:07.473] Server  LOG     No packages found with 'themes' array, trying 'theme' array...
-[00:03:07.474] Server  LOG     No packages found with 'themes' array, trying 'theme' array...
-[00:03:07.474] Server  LOG     No themed packages found, falling back to latest published...
-[00:03:07.474] Server  LOG     No themed packages found, falling back to latest published...
-[00:03:07.475] Server  LOG     No themed packages found, falling back to latest published...
-[00:03:07.475] Server  LOG     Query returned 0 packages
-[00:03:07.475] Server  LOG     Query returned 0 packages
-[00:03:07.475] Server  LOG     Query returned 0 packages
-[00:03:29.169] Server  WARN    ⚠️ Firebase Admin credentials missing or invalid. Firestore functionality will be limited.
-[00:03:29.212] Server  LOG     >>> API GRAPHQL REQUEST RECEIVED <<< "POST"
-[00:03:29.226] Server  LOG     --- GRAPHQL REGIONS QUERY ---
-[00:03:29.227] Server  LOG     Total documents in 'regions' collection: 0
-[00:03:29.227] Server  LOG     No dynamic regions found, triggering static fallback.
-[00:04:25.847] Server  LOG      ✓ Compiled in 337ms
-[00:04:36.787] Server  LOG      ✓ Compiled in 527ms
-[00:06:13.485] Server  LOG        Reload env: .env.local
-[00:06:16.019] Server  LOG      ✓ Compiled in 1854ms
-[00:06:23.575] Server  LOG     >>> API GRAPHQL REQUEST RECEIVED <<< "POST"
-[00:06:23.621] Server  LOG     --- GRAPHQL REGIONS QUERY ---
-[00:06:25.380] Server  LOG     Total documents in 'regions' collection: 87
-[00:06:25.391] Server  LOG     Found Europe Countries: ["Multi Countries","Wales","Netherland","Scotland","Scandinavia Countries ","Portugal","UK ","Germany","Spain","England","Italy","France","Belgium","Switzerland","Austria"]
-[00:06:25.392] Server  LOG     Region scandinavia: 0 countries matched
-[00:06:25.393] Server  LOG     Region western-europe: 8 countries matched
-[00:06:25.394] Server  LOG     Region central-europe: 1 countries matched
-[00:06:25.395] Server  LOG     Region uk-ireland: 3 countries matched
-[00:06:25.395] Server  LOG     Region eastern: 0 countries matched
-[00:06:25.396] Server  LOG     Region balkans: 0 countries matched
-[00:06:48.584] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:06:50.201] Browser WARN    Image with src "http://localhost:3000/quick_region_images/leaning_tower_of_pisa.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:06:50.201] Browser WARN    Image with src "http://localhost:3000/quick_region_images/brandenburg_gate.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:06:50.201] Browser WARN    Image with src "http://localhost:3000/quick_region_images/sagrada_familia.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:06:50.201] Browser WARN    Image with src "http://localhost:3000/quick_region_images/colosseum.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:06:50.201] Browser WARN    Image with src "http://localhost:3000/quick_region_images/parthenon.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:06:50.201] Browser WARN    Image with src "http://localhost:3000/quick_region_images/tower_bridge.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:06:50.201] Browser WARN    Image with src "http://localhost:3000/quick_region_images/cologne_cathedral.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:06:50.201] Browser WARN    Image with src "http://localhost:3000/quick_region_images/charles_bridge.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:06:50.201] Browser WARN    Image with src "http://localhost:3000/quick_region_images/edinburgh_castle.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:06:50.201] Browser WARN    Image with src "http://localhost:3000/quick_region_images/louvre.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:06:50.201] Browser LOG     --- NAV FETCHING REGIONS FROM API ---
-[00:06:50.201] Browser LOG     --- NAV FETCHING REGIONS FROM API ---
-[00:06:50.202] Browser WARN    Image with src "/quick_region_images/sagrada_familia.svg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
-Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
-[00:06:50.275] Server  LOG     >>> API GRAPHQL REQUEST RECEIVED <<< "POST"
-[00:06:50.288] Server  LOG     --- GRAPHQL REGIONS QUERY ---
-[00:06:50.311] Server  LOG     >>> API GRAPHQL REQUEST RECEIVED <<< "POST"
-[00:06:50.316] Server  LOG     --- GRAPHQL REGIONS QUERY ---
-[00:06:50.333] Server  LOG     >>> API GRAPHQL REQUEST RECEIVED <<< "POST"
-[00:06:50.346] Server  LOG     --- FIRESTORE DYNAMIC QUERY: honeymoon, elite-escape, family, group-departure, relax-rejuvenate, solo ---
-[00:06:50.414] Server  LOG     >>> API GRAPHQL REQUEST RECEIVED <<< "POST"
-[00:06:50.428] Server  LOG     --- FIRESTORE DYNAMIC QUERY: elite-escape, Elite Escape, luxury, Luxury ---
-[00:06:50.432] Server  LOG     --- FIRESTORE DYNAMIC QUERY: exploration-bundle, Exploration Bundle, exploration, Exploration, educational, Educational ---
-[00:06:50.434] Server  LOG     --- FIRESTORE DYNAMIC QUERY: relax-rejuvenate, Relax & Rejuvenate, Wellness, Relax, Value, budget ---
-[00:06:50.473] Server  LOG     >>> API GRAPHQL REQUEST RECEIVED <<< "POST"
-[00:06:50.478] Server  LOG     --- FIRESTORE DYNAMIC QUERY: honeymoon, elite-escape, family, group-departure, relax-rejuvenate, solo ---
-[00:06:50.597] Server  LOG     Total documents in 'regions' collection: 87
-[00:06:50.599] Server  LOG     Found Europe Countries: ["Multi Countries","Wales","Netherland","Scotland","Scandinavia Countries ","Portugal","UK ","Germany","Spain","England","Italy","France","Belgium","Switzerland","Austria"]
-[00:06:50.599] Server  LOG     Region scandinavia: 0 countries matched
-[00:06:50.600] Server  LOG     Region western-europe: 8 countries matched
-[00:06:50.600] Server  LOG     Region central-europe: 1 countries matched
-[00:06:50.601] Server  LOG     Region uk-ireland: 3 countries matched
-[00:06:50.601] Server  LOG     Region eastern: 0 countries matched
-[00:06:50.602] Server  LOG     Region balkans: 0 countries matched
-[00:06:50.637] Server  LOG     No packages found with 'themes' array, trying 'theme' array...
-[00:06:50.648] Server  LOG     No packages found with 'themes' array, trying 'theme' array...
-[00:06:50.729] Server  LOG     No packages found with 'themes' array, trying 'theme' array...
-[00:06:50.733] Server  LOG     No packages found with 'themes' array, trying 'theme' array...
-[00:06:50.741] Server  LOG     No packages found with 'themes' array, trying 'theme' array...
-[00:06:50.794] Server  LOG     >>> API GRAPHQL REQUEST RECEIVED <<< "POST"
-[00:06:50.797] Server  LOG     --- FIRESTORE DYNAMIC QUERY: elite-escape, Elite Escape, luxury, Luxury ---
-[00:06:50.799] Server  LOG     --- FIRESTORE DYNAMIC QUERY: exploration-bundle, Exploration Bundle, exploration, Exploration, educational, Educational ---
-[00:06:50.801] Server  LOG     --- FIRESTORE DYNAMIC QUERY: relax-rejuvenate, Relax & Rejuvenate, Wellness, Relax, Value, budget ---
-[00:06:50.844] Server  LOG     Total documents in 'regions' collection: 87
-[00:06:50.845] Server  LOG     Found Europe Countries: ["Multi Countries","Wales","Netherland","Scotland","Scandinavia Countries ","Portugal","UK ","Germany","Spain","England","Italy","France","Belgium","Switzerland","Austria"]
-[00:06:50.846] Server  LOG     Region scandinavia: 0 countries matched
-[00:06:50.846] Server  LOG     Region western-europe: 8 countries matched
-[00:06:50.847] Server  LOG     Region central-europe: 1 countries matched
-[00:06:50.847] Server  LOG     Region uk-ireland: 3 countries matched
-[00:06:50.848] Server  LOG     Region eastern: 0 countries matched
-[00:06:50.848] Server  LOG     Region balkans: 0 countries matched
-[00:06:50.925] Browser LOG     --- NAV DYNAMIC REGIONS RECEIVED --- 6 regions
-[00:06:50.925] Browser WARN    Image with src "https://images.unsplash.com/photo-1531366936337-7c912a4589a7?q=80&w=2070&auto=format&fit=crop&w=1000" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
-Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
-[00:06:50.930] Server  LOG     No packages found with 'themes' array, trying 'theme' array...
-[00:06:50.934] Server  LOG     No packages found with 'themes' array, trying 'theme' array...
-[00:06:50.940] Server  LOG     No packages found with 'themes' array, trying 'theme' array...
-[00:06:51.038] Browser LOG     --- NAV DYNAMIC REGIONS RECEIVED --- 6 regions
-[00:06:51.050] Server  LOG     Query returned 8 packages
-[00:06:51.095] Server  LOG     Query returned 8 packages
-[00:06:51.170] Server  LOG     Query returned 8 packages
-[00:06:51.355] Server  LOG     Query returned 8 packages
-[00:06:51.405] Server  LOG     Query returned 8 packages
-[00:06:51.454] Server  LOG     Query returned 8 packages
-[00:06:52.683] Server  LOG     Query returned 100 packages
-[00:06:53.163] Server  LOG     Query returned 100 packages
+[00:00:03.859] Server  LOG      ✓ Ready in 3.5s
+[00:00:16.334] Server  LOG      ○ Compiling / ...
+[00:00:18.747] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:18.974] Browser WARN    Image with src "http://localhost:3000/quick_region_images/leaning_tower_of_pisa.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:18.974] Browser WARN    Image with src "http://localhost:3000/quick_region_images/brandenburg_gate.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:18.974] Browser WARN    Image with src "http://localhost:3000/quick_region_images/sagrada_familia.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:18.974] Browser WARN    Image with src "http://localhost:3000/quick_region_images/colosseum.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:18.974] Browser WARN    Image with src "http://localhost:3000/quick_region_images/parthenon.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:18.974] Browser WARN    Image with src "http://localhost:3000/quick_region_images/tower_bridge.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:18.975] Browser WARN    Image with src "http://localhost:3000/quick_region_images/cologne_cathedral.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:18.975] Browser WARN    Image with src "http://localhost:3000/quick_region_images/charles_bridge.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:18.975] Browser WARN    Image with src "http://localhost:3000/quick_region_images/edinburgh_castle.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:18.975] Browser WARN    Image with src "http://localhost:3000/quick_region_images/louvre.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:18.975] Browser LOG     --- NAV FETCHING REGIONS FROM API ---
+[00:00:18.975] Browser LOG     --- NAV FETCHING REGIONS FROM API ---
+[00:00:20.832] Server  LOG     >>> API GRAPHQL REQUEST RECEIVED <<< "POST"
+[00:00:20.867] Server  LOG     --- FIRESTORE DYNAMIC QUERY: honeymoon, elite-escape, family, group-departure, relax-rejuvenate, solo ---
+[00:00:20.885] Server  LOG     >>> API GRAPHQL REQUEST RECEIVED <<< "POST"
+[00:00:20.894] Server  LOG     --- FIRESTORE DYNAMIC QUERY: elite-escape, Elite Escape, luxury, Luxury ---
+[00:00:20.896] Server  LOG     --- FIRESTORE DYNAMIC QUERY: exploration-bundle, Exploration Bundle, exploration, Exploration, educational, Educational ---
+[00:00:20.897] Server  LOG     --- FIRESTORE DYNAMIC QUERY: relax-rejuvenate, Relax & Rejuvenate, Wellness, Relax, Value, budget ---
+[00:00:20.912] Server  LOG     >>> API GRAPHQL REQUEST RECEIVED <<< "POST"
+[00:00:20.916] Server  LOG     --- FIRESTORE DYNAMIC QUERY: honeymoon, elite-escape, family, group-departure, relax-rejuvenate, solo ---
+[00:00:20.924] Server  LOG     >>> API GRAPHQL REQUEST RECEIVED <<< "POST"
+[00:00:20.926] Server  LOG     --- FIRESTORE DYNAMIC QUERY: elite-escape, Elite Escape, luxury, Luxury ---
+[00:00:20.928] Server  LOG     --- FIRESTORE DYNAMIC QUERY: exploration-bundle, Exploration Bundle, exploration, Exploration, educational, Educational ---
+[00:00:20.929] Server  LOG     --- FIRESTORE DYNAMIC QUERY: relax-rejuvenate, Relax & Rejuvenate, Wellness, Relax, Value, budget ---
+[00:00:20.939] Server  LOG     >>> API GRAPHQL REQUEST RECEIVED <<< "POST"
+[00:00:20.943] Server  LOG     --- GRAPHQL REGIONS QUERY ---
+[00:00:20.952] Server  LOG     >>> API GRAPHQL REQUEST RECEIVED <<< "POST"
+[00:00:20.954] Server  LOG     --- GRAPHQL REGIONS QUERY ---
+[00:00:21.866] Server  LOG     No packages found with 'themes' array, trying 'theme' array...
+[00:00:21.879] Server  LOG     No packages found with 'themes' array, trying 'theme' array...
+[00:00:21.886] Server  LOG     No packages found with 'themes' array, trying 'theme' array...
+[00:00:21.890] Server  LOG     No packages found with 'themes' array, trying 'theme' array...
+[00:00:21.895] Server  LOG     No packages found with 'themes' array, trying 'theme' array...
+[00:00:21.900] Server  LOG     No packages found with 'themes' array, trying 'theme' array...
+[00:00:21.907] Server  LOG     No packages found with 'themes' array, trying 'theme' array...
+[00:00:21.912] Server  LOG     No packages found with 'themes' array, trying 'theme' array...
+[00:00:22.098] Server  LOG     Total documents in 'regions' collection: 87
+[00:00:22.101] Server  LOG     Found Europe Countries: ["Multi Countries","Wales","Netherland","Scotland","Scandinavia Countries ","Portugal","UK ","Germany","Spain","England","Italy","France","Belgium","Switzerland","Austria"]
+[00:00:22.102] Server  LOG     Region scandinavia: 0 countries matched
+[00:00:22.102] Server  LOG     Region western-europe: 8 countries matched
+[00:00:22.103] Server  LOG     Region central-europe: 1 countries matched
+[00:00:22.105] Server  LOG     Region uk-ireland: 3 countries matched
+[00:00:22.106] Server  LOG     Region eastern: 0 countries matched
+[00:00:22.106] Server  LOG     Region balkans: 0 countries matched
+[00:00:22.259] Browser LOG     --- NAV DYNAMIC REGIONS RECEIVED --- 6 regions
+[00:00:22.356] Server  LOG     Total documents in 'regions' collection: 87
+[00:00:22.357] Server  LOG     Found Europe Countries: ["Multi Countries","Wales","Netherland","Scotland","Scandinavia Countries ","Portugal","UK ","Germany","Spain","England","Italy","France","Belgium","Switzerland","Austria"]
+[00:00:22.358] Server  LOG     Region scandinavia: 0 countries matched
+[00:00:22.358] Server  LOG     Region western-europe: 8 countries matched
+[00:00:22.358] Server  LOG     Region central-europe: 1 countries matched
+[00:00:22.359] Server  LOG     Region uk-ireland: 3 countries matched
+[00:00:22.359] Server  LOG     Region eastern: 0 countries matched
+[00:00:22.360] Server  LOG     Region balkans: 0 countries matched
+[00:00:22.427] Server  LOG     Query returned 8 packages
+[00:00:22.481] Browser LOG     --- NAV DYNAMIC REGIONS RECEIVED --- 6 regions
+[00:00:22.614] Server  LOG     Query returned 8 packages
+[00:00:22.670] Server  LOG     Query returned 8 packages
+[00:00:22.691] Server  LOG     Query returned 8 packages
+[00:00:22.725] Server  LOG     Query returned 8 packages
+[00:00:22.789] Server  LOG     Query returned 8 packages
+[00:00:23.723] Server  LOG     Query returned 100 packages
+[00:00:24.016] Server  LOG     Query returned 100 packages

@@ -234,10 +234,15 @@ const nextConfig = {
 const moduleExports = withSentryConfig(nextConfig, {
   org: process.env.SENTRY_ORG || "bayard-vacations",
   project: "javascript-nextjs",
-  silent: !process.env.CI,
+  // ✅ Suppress logs and handle missing tokens gracefully
+  silent: true,
   widenClientFileUpload: true,
   disableLogger: true,
   automaticVercelMonitors: true,
+  // Disable source map upload if it's failing the build
+  errorHandler: (err, invokeNext, compilation) => {
+    console.warn("Sentry CLI Error suppressed to allow build to continue:", err.message);
+  },
   // Proxy Sentry requests through your own domain to avoid ad-blocker interference
   tunnelRoute: "/monitoring",
   // Annotate React components in stack traces for clearer error context

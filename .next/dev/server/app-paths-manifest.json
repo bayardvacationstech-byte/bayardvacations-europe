@@ -1,5 +1,0 @@
-{
-  "/[regionId]/page": "app/[regionId]/page.js",
-  "/api/graphql/route": "app/api/graphql/route.js",
-  "/page": "app/page.js"
-}
